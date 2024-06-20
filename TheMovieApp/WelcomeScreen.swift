@@ -20,7 +20,7 @@ struct WelcomeScreen: View {
                         Task {
                         
                                 isFetching = true
-                                defer { isFetching = false }
+//                                defer { isFetching = false }
                             await fetchNowPlayingMovies()
                             await fetchUpcomingMovies()
                             await fetchTopRatedMovies()
@@ -30,7 +30,6 @@ struct WelcomeScreen: View {
                         }
                     }
                 }
-                
                 NavigationLink(destination: HomeScreen(nowPlayingMovies: nowPlayingMovies,upcomingMovies: upcomingMovies,topRatedMovies: topRatedMovies,popularMovies: popularMovies,trendingMovies: trendingMovies), isActive: $showHomeScreen) {
                     EmptyView()
                 }

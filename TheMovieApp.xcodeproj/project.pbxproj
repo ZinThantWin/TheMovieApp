@@ -19,6 +19,7 @@
 		538228952C1D42AB003AAEA2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 538228942C1D42AB003AAEA2 /* Preview Assets.xcassets */; };
 		53C6F88B2C22A1B900244D68 /* EachMovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C6F88A2C22A1B900244D68 /* EachMovieDetail.swift */; };
 		53C6F88D2C22CAFC00244D68 /* EachTrailerVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C6F88C2C22CAFC00244D68 /* EachTrailerVideo.swift */; };
+		53C6F8922C241A7200244D68 /* ProfileImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C6F8912C241A7200244D68 /* ProfileImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		538228942C1D42AB003AAEA2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		53C6F88A2C22A1B900244D68 /* EachMovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachMovieDetail.swift; sourceTree = "<group>"; };
 		53C6F88C2C22CAFC00244D68 /* EachTrailerVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachTrailerVideo.swift; sourceTree = "<group>"; };
+		53C6F8912C241A7200244D68 /* ProfileImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				530FCB452C229B6800E081C4 /* EachHMovieList.swift */,
 				53C6F88A2C22A1B900244D68 /* EachMovieDetail.swift */,
 				53C6F88C2C22CAFC00244D68 /* EachTrailerVideo.swift */,
+				53C6F8912C241A7200244D68 /* ProfileImage.swift */,
 			);
 			path = UIComponents;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				530FCB462C229B6800E081C4 /* EachHMovieList.swift in Sources */,
 				53C6F88D2C22CAFC00244D68 /* EachTrailerVideo.swift in Sources */,
 				530FCB442C228A9100E081C4 /* WelcomeScreen.swift in Sources */,
+				53C6F8922C241A7200244D68 /* ProfileImage.swift in Sources */,
 				53646EC52C1D477F007315CC /* HomeScreen.swift in Sources */,
 				53646EC82C1D4A03007315CC /* Models.swift in Sources */,
 			);
